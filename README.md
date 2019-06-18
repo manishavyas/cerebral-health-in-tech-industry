@@ -1,2 +1,9 @@
 # mental-health-in-tech-industry
 Mental Health Perception: Tech Industry
+
+Mental health is often considered a social stigma that restricts people suffering from such disorders to openly discuss these issues with their supervisors at workplace. Open Source Mental Illness, a non-profit organization conducted a mental health survey in 2016 to raise awareness and support mental health wellness. This research is an attempt to analyze comfort level of employees in discussing mental health disorders with their supervisors in tech industry based on the survey questions answered by the respondents.
+
+Based on preliminary analysis, few key features were identified which linked to comfort level evaluation. It led to formulation of four research question and specific hypothesis for testing correlation of age, organization size, protection of anonymity, mental health coverage and awareness of mental health benefits amongst the employees. Exploratory data analysis was performed to understand these correlations by plotting specific features and determining statistical significance using multinomial regression model.
+Results from exploratory data analysis and backward elimination method were utilized to identify two models (full and reduced). Multinomial logistic regression and random forest prediction algorithms followed by k-fold cross validation method was applied to determine accuracy of these models. Though the prediction accuracy for both the algorithms was low, multinomial logistic regression on reduced model fitted the data best.
+
+As per the findings, recommendations include developing firm policies which are age agnostic and focus on educating supervisors and coworkers for handling employees with mental health issues, in an effective manner. They should include terms on anonymity protection and information regarding mental health benefits provided by the employers.
